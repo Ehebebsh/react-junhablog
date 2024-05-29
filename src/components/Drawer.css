@@ -1,0 +1,39 @@
+/* src/components/Drawer.css */
+.drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+  }
+  
+  .drawer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .drawer h2{
+    cursor: pointer;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  
+  .drawer li {
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  
+  .close-button {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

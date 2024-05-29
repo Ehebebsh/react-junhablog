@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-item {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.blog-tags {
+  color: #007acc;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.blog-date {
+  color: #666666;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex; /* 이 부분을 추가하여 버튼들을 가로로 배열합니다. */
+  gap: 10px; /* 버튼 사이의 간격을 설정합니다. */
+}
+
+.blog-link {
+  text-decoration: none; /* 밑줄 제거 */
+  color: inherit; /* 링크 색상을 상위 요소의 색상과 동일하게 설정 */
+}
+

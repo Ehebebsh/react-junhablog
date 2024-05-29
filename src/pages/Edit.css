@@ -1,0 +1,64 @@
+/* Edit 컴포넌트에 적용되는 스타일 */
+
+.edit-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-title {
+    text-align: center;
+    font-size: 24px;
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form-item {
+    margin-bottom: 1rem;
+  }
+  
+  .edit-form-label {
+    font-weight: bold;
+  }
+  
+  .edit-form-input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .edit-form-textarea {
+    width: 96%;
+    height: 200px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .edit-form-button {
+    padding: 10px;
+    background-color: #158045;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-form-button:hover {
+    background-color: #126b3c;
+  }
+  

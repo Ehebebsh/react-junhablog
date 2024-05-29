@@ -1,0 +1,45 @@
+
+
+.detail-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detail-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .detail-tags {
+    color: #007acc;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .detail-date {
+    color: #666666;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .detail-content {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #444444;
+    background: #f9f9f9; /* 박스 배경색 */
+    padding: 20px; /* 내부 여백 */
+    border-radius: 8px; /* 모서리 둥글게 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    border: 1px solid #e0e0e0; /* 테두리 색과 두께 */
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px; /* 필요에 따라 여백 조정 */
+  }

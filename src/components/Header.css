@@ -1,0 +1,23 @@
+/* Header.css */
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px; /* 내부 여백을 더 크게 설정 */
+  }
+  
+  .left-child,
+  .right-child {
+    flex: 1;
+  }
+  
+  .title {
+    flex: 2;
+    text-align: center;
+    font-size: 24px; /* 타이틀 글자 크기를 크게 설정 */
+    background-color: #555; /* 타이틀 배경을 더 크게 설정 */
+    padding: 10px; /* 타이틀 내부 여백을 설정 */
+  }
+  
